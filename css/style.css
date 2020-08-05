@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color: #2b2b2b;
+}
+
+.container{
+    display: inline-block;
+    position: fixed;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.container .form-welcome{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.container .form-welcome .visitIcon{
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.container .form-welcome .title-name{    
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container .form-welcome #visitName{
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+.container .form-welcome #visitSubmit{
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
