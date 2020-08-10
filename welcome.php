@@ -12,7 +12,7 @@
         <i class="fas fa-terminal visitIcon"></i>
         <p class="title-name"><?php $dia->amORpm(); ?>, digite seu nome!</p>
 
-        <form action="incs/name.inc.php" method="post">            
+        <form action="functions.php?name" method="post">            
             <input type="text" name="visitante" id="visitName">
             <input type="submit" value="Okay!" id="visitSubmit">
         </form>

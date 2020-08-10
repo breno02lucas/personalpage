@@ -11,7 +11,14 @@
         session_start();
         $_SESSION['visitantName'] = $name;
 
-        header("Location:../index.php");
+        header("Location:index.php");
+        exit();
+    }
+    
+    // Se não tem nome do vistante 
+    if(!$_SESSION['visitantName'] && $_SERVER['REQUEST_URI'] != '/welcome.php')
+    {
+        header("Location:welcome.php");
         exit();
     }
 
